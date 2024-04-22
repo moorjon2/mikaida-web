@@ -1,0 +1,84 @@
+* {
+    background-color: #e6e6fa;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.menu-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+}
+
+.menu-desktop-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-desktop-list, p, li {
+    font-size: 20px;
+}
+
+.menu-desktop-list {
+    gap: 30px;
+}
+
+.menu-logo, .header-title, .header-title-text, .body-footer-title {
+    color: #000000;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p, li {
+    color: #000000;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.body-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.body-footer-options {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    color: gray;
+}
+
+.body-footer-contact {
+    flex-direction: column;
+}
